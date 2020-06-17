@@ -6,7 +6,7 @@ import java.io.StringReader
 /**
  * try- catch
  ***/
-fun test3(reader: BufferedReader):Int?{
+fun test5(reader: BufferedReader):Int?{
     try {
         val parseInt = Integer.parseInt(reader.readLine());
         println(parseInt);
@@ -21,5 +21,5 @@ fun test3(reader: BufferedReader):Int?{
 
 fun main(){
     val bufferedReader = BufferedReader(StringReader("2a34"))
-    test3(bufferedReader)
+    test5(bufferedReader)
 }
