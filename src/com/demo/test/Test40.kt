@@ -20,6 +20,8 @@ fun test5(reader: BufferedReader):Int?{
 }
 
 fun main(){
-    val bufferedReader = BufferedReader(StringReader("2a34"))
-    test5(bufferedReader)
+    val buffered = BufferedReader(StringReader("2a34"))
+    println("111111")
+    test5(buffered)
+    println("欢迎欢迎")
 }
