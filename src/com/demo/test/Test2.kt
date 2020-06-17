@@ -3,9 +3,7 @@ package com.demo.test
 fun main(args: Array<String>){
     println(curTest4());
 }
-/*
-    定义函数
-* */
+/*  定义函数  */
 fun convertUpercase(str: Any):String?{
     if(str is String){
         return str.toUpperCase();

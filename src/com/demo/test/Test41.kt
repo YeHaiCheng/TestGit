@@ -1,7 +1,7 @@
 package com.demo.test
 /**
  *   非常莫名奇妙
- *
+ *111
  * **/
 class CatchException<out T> {
     companion object {
@@ -25,4 +25,5 @@ fun main(){
     CatchException({});
     CatchException(){};
     CatchException.invoke {  }
+    print(111)
 }
